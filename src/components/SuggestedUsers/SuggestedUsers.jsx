@@ -16,11 +16,11 @@ const SuggestedUsers = () => {
             </Text>
         </Flex>
 
-        <SuggestedUser />
-        <SuggestedUser />
-        <SuggestedUser />
+        <SuggestedUser name='Dan Abrahmov' followers={1392} avatar='/dan_abramov.jpg' />
+        <SuggestedUser name='Ryan Florence' followers={567} avatar='https://bit.ly/ryan-florence' />
+        <SuggestedUser name='Christian Nwamba' followers={759} avatar='/christian_nwamba.jpg' />
 
-        <Box fontSize={12} color={"gray.500"} mt={5}>
+        <Box fontSize={12} color={"gray.500"} mt={5} alignSelf={"start"}>
             © 2023 Built By{" "}
             <Link href="https://github.com/IdushaGaravi" target="_blank" color={"blue.500"} fontSize={14}>
                 Idusha Garavi
