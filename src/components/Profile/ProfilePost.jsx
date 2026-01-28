@@ -5,8 +5,9 @@ import { MdDelete } from 'react-icons/md';
 import Comment from '../Comment/Comment';
 import PostFooter from '../FeedPosts/PostFooter';
 
-const ProfilePost = ({img}) => {
-  const { isOpen, onOpen, onClose } = useDisclosure()
+const ProfilePost = ({ post }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  //console.log(post);
   return (
     <>
       <GridItem
@@ -44,7 +45,7 @@ const ProfilePost = ({img}) => {
           </Flex>
         </Flex>
 
-        <Image src={img} alt='profile post' w={"100%"} h={"100%"} objectFit={"cover"} />
+        <Image src={post.imageURL} alt='profile post' w={"100%"} h={"100%"} objectFit={"cover"} />
       </GridItem>
 
       <Modal
@@ -65,7 +66,7 @@ const ProfilePost = ({img}) => {
                 borderColor={"whiteAlpha.300"}
                 flex={1.5}
               >
-                <Image src={img} alt='profile post'/>
+                <Image src={post.imageURL} alt='profile post'/>
               </Box>
               <Flex flex={1} flexDir={"column"} px={10} display={{base: "none", md: "flex"}}>
                 <Flex alignItems={"center"} justifyContent={"space-between"}>
