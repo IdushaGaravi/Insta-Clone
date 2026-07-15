@@ -114,17 +114,13 @@ This project demonstrates practical experience with:
 #### Login Page
 
 
-```md
 ![Login Page](./screenshots/login-page.png)
-```
 
 ---
 
 #### Signup Page
 
-```md
 ![Signup Page](./screenshots/signup-page.png)
-```
 
 ---
 
@@ -132,9 +128,8 @@ This project demonstrates practical experience with:
 
 Browse posts in a responsive Instagram-inspired feed.
 
-```md
 ![Home Feed](./screenshots/home-feed.png)
-```
+
 
 ---
 
@@ -142,9 +137,8 @@ Browse posts in a responsive Instagram-inspired feed.
 
 Upload images and share them with captions.
 
-```md
 ![Create Post](./screenshots/create-post.png)
-```
+
 
 ---
 
@@ -152,9 +146,7 @@ Upload images and share them with captions.
 
 Manage profile information and view uploaded posts.
 
-```md
 ![Profile Page](./screenshots/profile-page.png)
-```
 
 ---
 
@@ -162,9 +154,9 @@ Manage profile information and view uploaded posts.
 
 Users can view existing comments and interact with posts through an intuitive comments modal.
 
-```md
+
 ![Comments Modal](./screenshots/comments-modal.png)
-```
+
 
 ---
 
@@ -172,9 +164,9 @@ Users can view existing comments and interact with posts through an intuitive co
 
 Discover and follow other users.
 
-```md
+
 ![Suggested Users](./screenshots/suggested-users.png)
-```
+
 
 ---
 
@@ -182,9 +174,9 @@ Discover and follow other users.
 
 Optimized for desktop and mobile devices.
 
-```md
+
 ![Responsive Design](./screenshots/mobile-view.png)
-```
+
 
 ---
 
