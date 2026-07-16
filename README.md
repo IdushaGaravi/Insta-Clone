@@ -408,7 +408,7 @@ Planned enhancements include:
 
 ## Author
 
-### Garavi W. A. I.
+### Idusha Garavi
 
 - Undergraduate Software Engineering Student
 - Full-Stack Web Development Enthusiast
